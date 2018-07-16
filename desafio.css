@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	transition: 1s;
+}
+.contenedorimg{
+	position: relative;
+	width: 500px;
+	height: 100vh;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+img {
+ -webkit-transition: 0.5s;
+ -moz-transition: 0.5s;
+ -o-transition: 0.5s;
+ transition: 0.5s;
+ max-width: 100%;
+ opacity: 0;
+ width: 100%;
+ left: -40%;
+ position: relative;
+}
+
+.b-loaded {
+ opacity: 1;
+ left: 0;
+}
+/*body{
+	text-align: center;
+}
+
+img{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	float: center;
+	width: 400px;
+	
+	transition: 1s;
+	opacity:0;
+
+
+
+}
+img.b-loaded{
+	
+	opacity: 1;
+}*/
